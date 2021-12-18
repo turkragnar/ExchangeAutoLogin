@@ -13,12 +13,9 @@ else{
    return results;
 }
 let passwd = makeid(12);
-	for(var a=0; a<=5; a++){
-	a++;
 document.getElementById('username').value=username;
 document.getElementById('password').value=passwd;
 document.querySelector('.signinbutton').click();
 setTimeout(10000);
-}
 alert('Successful');
 }
